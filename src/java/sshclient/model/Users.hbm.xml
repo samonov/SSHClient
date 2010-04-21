@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 21.04.2010 15:30:42 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="sshclient.model.Users" table="users" schema="public">
+        <id name="userId" type="int">
+            <column name="user_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="email" type="string">
+            <column name="email" length="128" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="128" />
+        </property>
+    </class>
+</hibernate-mapping>
