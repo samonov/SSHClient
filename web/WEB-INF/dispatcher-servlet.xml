@@ -31,8 +31,7 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
     <!--
     The index controller.
     -->
-    <bean name="indexController"
-          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+    <bean name="indexController" class="sshclient.controller.RegistrationController"
           p:viewName="index" />
     
 </beans>

@@ -25,7 +25,6 @@ public class Users  implements java.io.Serializable {
        this.email = email;
        this.password = password;
     }
-   
     public int getUserId() {
         return this.userId;
     }

@@ -23,10 +23,6 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
-                    <file>${file.reference.derbyclient.jar}</file>
-                    <path-in-war>WEB-INF/lib</path-in-war>
-                </library>
-                <library dirs="200">
                     <file>${file.reference.postgresql-8.3-603.jdbc3.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
@@ -43,6 +39,7 @@
             <config-files>
                 <config-file>web/WEB-INF/applicationContext.xml</config-file>
                 <config-file>web/WEB-INF/dispatcher-servlet.xml</config-file>
+                <config-file>src/java/newSpringXMLConfig.xml</config-file>
             </config-files>
             <config-file-groups>
                 <config-file-group name="Default Group">
