@@ -9,7 +9,5 @@
     </head>
     <body>
         <p>Hello AAAAAAAAAAA IT`s WORK! This is the default welcome page for a Spring Web MVC project.</p>
-        <p><i>To display a different welcome page for this project, modify</i>
-          
     </body>
 </html>
